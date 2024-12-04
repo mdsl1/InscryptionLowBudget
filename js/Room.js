@@ -10,6 +10,7 @@ let initialMenu = document.getElementById("initialMenuContainer");
 let btnPageGame = document.getElementById("btnPageGame");
 let btnGuide = document.getElementById("btnGuide");
 let guideContainer = document.getElementById("guide");
+let btnMusic = document.getElementById("btnMusic");
 //Variaveis para funcionamento do carrossel guia
 let guideCurrentIndex = 0;
 let guideItems = document.querySelectorAll(".guideItem");
@@ -181,6 +182,7 @@ btnNext.addEventListener("click", checkLastWindow);
 btnPrev.addEventListener("click", checkLastWindow);
 //Quando o botão for clicado, vai para o menu
 btnPageGame.addEventListener("click", moveToGame);
+btnMusic.addEventListener("click", startSounds);
 
 // Inicializa o carrossel no item do meio e o timer aleatório para os raios
 updateWindow();
@@ -188,5 +190,4 @@ checkLastWindow();
 
 window.onload = () => {
   startSounds();
-  startLightningStorm();
 }

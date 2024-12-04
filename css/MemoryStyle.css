@@ -92,6 +92,21 @@ body{
 #btnGuide{
   margin: 1% 0;
 }
+#btnMusic{
+  background: #630000;
+  color: #ffbf00;
+  
+  font-family: "Rubik Wet Paint", system-ui;;
+  width: 20%;
+  height: 6%;
+  border: #ffbf00 2px solid;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+}
 #btnPageGame, #btnGuide{
   background: #630000;
   color: #ffbf00;
