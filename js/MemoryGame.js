@@ -12,6 +12,7 @@ let deaths = 0;
 let wins = 0;
 let result = 0;
 let gameStarted = 0;
+let btnStartGame = document.getElementById("startGame");
 //Variavel para funcionalidade dos olhos que seguem o jogador
 let pupils = document.querySelectorAll(".pupil");
 //Variaveis para funcionamento do jumpscare
@@ -252,4 +253,4 @@ volumeJumpscare.addEventListener('input', (event) => {
   });
 
 document.addEventListener("mousemove", movePupils);
-document.getElementById("startGame").addEventListener('click', startGame);
+btnStartGame.addEventListener("click", startGame);
