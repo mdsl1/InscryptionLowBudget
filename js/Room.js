@@ -184,10 +184,9 @@ btnPageGame.addEventListener("click", moveToGame);
 
 // Inicializa o carrossel no item do meio e o timer aleatório para os raios
 updateWindow();
-startLightningStorm();
-startSounds();
 checkLastWindow();
 
 window.onload = () => {
-  
+  startSounds();
+  startLightningStorm();
 }
